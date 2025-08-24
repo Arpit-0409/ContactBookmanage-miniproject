@@ -92,6 +92,9 @@ def main():
             search(contact)
         elif choice=="4":
             delete(contact)
+        elif choice =="5":
+            print("Thanks For Visiting!")
+            break    
         else : is_running = False
 
 
